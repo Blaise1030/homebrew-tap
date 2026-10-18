@@ -2,28 +2,28 @@
 class Tabsh < Formula
   desc "Your terminal, in a browser tab"
   homepage "https://tabsh.cc"
-  version "0.1.32"
+  version "0.1.33"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Blaise1030/tabsh/releases/download/v0.1.32/tabsh-v0.1.32-aarch64-apple-darwin.tar.gz"
-      sha256 "d023fcecf6fe8451bcad41a52b4f95c7e1237c0665ea2d56155bef500c420879"
+      url "https://github.com/Blaise1030/tabsh/releases/download/v0.1.33/tabsh-v0.1.33-aarch64-apple-darwin.tar.gz"
+      sha256 "56ed2c3882a11d2d974c9360a078dbdaade23910d21d8d287124a6ec3c5da360"
     end
     on_intel do
-      url "https://github.com/Blaise1030/tabsh/releases/download/v0.1.32/tabsh-v0.1.32-x86_64-apple-darwin.tar.gz"
-      sha256 "5f4a343432270e1ef94a584541eac266f36b2167dfc112f3aadb3c44919715b9"
+      url "https://github.com/Blaise1030/tabsh/releases/download/v0.1.33/tabsh-v0.1.33-x86_64-apple-darwin.tar.gz"
+      sha256 "8e8f9a850009d361429673bd0df260ff83f518f1cd7f3a5930b0103088463c02"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Blaise1030/tabsh/releases/download/v0.1.32/tabsh-v0.1.32-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d7e4bd6843365143e20a386099dd9dd5a66a01d99a9d20087502d2ec363438b7"
+      url "https://github.com/Blaise1030/tabsh/releases/download/v0.1.33/tabsh-v0.1.33-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4b9c104bc5c36a877f4d54cbe99fa30284ee187b55f023d3edd7c9573416ead8"
     end
     on_intel do
-      url "https://github.com/Blaise1030/tabsh/releases/download/v0.1.32/tabsh-v0.1.32-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a60e572fc9f883523ffaacb3cea2c43323ea7f8e9bb8ba108c60137c0d63d136"
+      url "https://github.com/Blaise1030/tabsh/releases/download/v0.1.33/tabsh-v0.1.33-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2da5592a347d491bf55c8cde62a0b0cd829243d3814d4712981cb8a639151b11"
     end
   end
 
